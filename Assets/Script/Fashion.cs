@@ -7,7 +7,6 @@ using System.Text;
 using AngleSharp;
 using AngleSharp.Dom;
 using UnityEngine.UI;
-using System.Collections;
 using System;
 
 public class Fashion : MonoBehaviour {
@@ -52,9 +51,9 @@ public class Fashion : MonoBehaviour {
 		
 	}
 
-    public void ChangeToDailyBoy()
+    public void ChangeToDailyGirl()
     {
-        SceneManager.LoadScene("DailyBoy");
+        SceneManager.LoadScene("DailyGirl");
     }
 
     public void ChangeToSocial()

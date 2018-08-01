@@ -15,9 +15,9 @@ public class Union : MonoBehaviour {
 		
 	}
 
-    public void ChangeToDailyBoy()
+    public void ChangeToDailyGirl()
     {
-        SceneManager.LoadScene("DailyBoy");
+        SceneManager.LoadScene("DailyGirl");
     }
 
     public void ChangeToSocial()
